@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "Encapsulación",
+        "Gorko"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "demos/08-operators",
+        "demos-oop/demo01/src",
+        "demos-oop/demo-super/src"
+    ]
+}
