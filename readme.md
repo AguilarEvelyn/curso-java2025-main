@@ -390,3 +390,41 @@ Acción formativa: 25/1599 (23/1583)
   - Herramientas de testing en Java
     - JUnit
     - Mockito
+
+    ## Día 24 (V 04/07)
+    - Tests unitarios con JUnit
+    - Configuración (review)
+    - Configuración sin Maven
+    - Tests de CalcController
+    - assertTrue() /fail
+    - assertEquals
+    - caso de uso
+    - caso con excepciones
+    - valores especiales
+      - Double.NaN
+      - Double.POSITIVE_INFINITY
+
+     ## Día 25 (L 07/07)
+Actualizaciones del sistema
+
+JDK 21
+Maven 3.9
+JUnit 5
+Mockito
+Tests unitarios con JUnit
+
+casos con excepciones -> lambdas
+métodos privados en la vista
+tests de la vista
+mock input (Streams)
+mock output (Streams)
+mock controller (Mockito)
+casos correctos thenReturn()
+casos con excepciones thenThrow()
+TDD
+
+## Día 26 (M 08/07)
+Ampliación de CLI
+2 menus
+test ajustados al nuevo CLI
+Test parametrizados
