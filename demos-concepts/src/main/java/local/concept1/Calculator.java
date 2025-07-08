@@ -67,6 +67,7 @@ public class Calculator {
 
     private int getInteger(String message) {
 
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
         int num = scanner.nextInt();
