@@ -8,5 +8,6 @@
         "demos/08-operators",
         "demos-oop/demo01/src",
         "demos-oop/demo-super/src"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
