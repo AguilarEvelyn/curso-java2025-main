@@ -1,7 +1,5 @@
 package local.concept2_vc;
 
-import static org.junit.Assert.assertEquals;
-
 import java.io.ByteArrayInputStream;
 // import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
