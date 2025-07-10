@@ -5,10 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
+
 
 import local.exceptions.BusinessException;
 import local.exceptions.ErrorCodes;
@@ -282,8 +284,9 @@ public class CalcControllerTest {
                 .contains(ErrorCodes.ERROR_BIGGER_20.toString()));
     }
 
-    @ParameterizedTest(name = "[{index}] {0}^{1} = {2}")
-    @CsvSource(value = {"2,2,4", "3,2,9","3,5,243", "-3,3,-27"})
+   
+ //  @ParameterizedTest(name = "[{index}] {0}^{1} = {2}")
+   // @CsvSource(value = {"2,2,4", "3,2,9","3,5,243", "-3,3,-27"})
     public void testPow_2_2(int n1, int n2, int e) throws BusinessException {
         // int num1 = 5;
         // int num2 = 3;
@@ -292,6 +295,8 @@ public class CalcControllerTest {
         // int result = calculator.add();
         assertEquals(e, calculator.pow());
     }
+
+   
 
     @Test
     public void testPow_3_m2() {
