@@ -424,7 +424,24 @@ casos con excepciones thenThrow()
 TDD
 
 ## Día 26 (M 08/07)
-Ampliación de CLI
-2 menus
-test ajustados al nuevo CLI
-Test parametrizados
+
+- Ampliación de CLI
+  - 2 menus
+  - System.exit(0)
+  - test ajustados al nuevo CLI
+- Test parametrizados
+  - Instalación con Maven
+  - Uso
+- Lambdas
+  - Definición: @FunctionalInterface
+  - Uso
+- Datos
+  - Valores primitivos: números
+  - Objetos numéricos
+
+## Día 27 (X 09/07)
+
+- Datos (continuación)
+  - Strings / StringBuffers
+  - LocalDates / LocalTimeDates
+  - Ejemplo: calcular edad
