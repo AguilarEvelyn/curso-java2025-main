@@ -445,3 +445,107 @@ TDD
   - Strings / StringBuffers
   - LocalDates / LocalTimeDates
   - Ejemplo: calcular edad
+- Arrays
+  - Instancias
+  - Clase de utilidad Arrays
+- Genéricos
+  - Creación
+  - Uso
+- Collection: Introducción
+
+## Día 28 (J 10/07)
+
+- Collections
+  - Interface Collections
+  - List
+    - ArrayList
+    - LinkedList
+  - Set
+    - HashSet
+    - LinkedHashSet
+    - TreeSet
+- Ejercicio: Listas
+
+## Día 29 (V 11/07)
+
+- Iterators
+- Ejercicio: solución
+  - Versión básica
+  - Versión OOP
+- Ejercicio: Palíndromo (Stack)
+- Ejercicio: Figuras (Listas & Interfaces)
+- Ejercicio propuesto: Baraja
+
+## Día 30 (L 14/07)
+
+- Ejercicio propuesto: Baraja
+- Maps
+- Ejercicio:
+  - PhoneAgenda (Map)
+  - PhoneAgenda (sin Map)
+
+## Día 31 (M 15/07)
+
+- Solución PhoneAgenda (Map v. sin Map)
+  - == v. equals
+  - uso de streams
+- Persistencia: Ficheros (1)
+  -  java.io.File;
+- Ejercicio: SaveUserData
+
+## Día 32 (X 16/07)
+
+- Solución ejercicio SaveUserData
+- Persistencia: Ficheros (2)
+  - java.nio.file.Path...
+   - manejo de Streams
+- Ejercicio: completar FileSystem2
+
+## Día 33 (J 17/07)
+
+- Revisión FileSystem2
+- Streams
+- Serialización
+  - JSON
+- Serialización JSON con Jackson
+  - Configuración de Jackson
+  - Ejemplo: serializar un objeto
+  - Ejemplo: serializar una lista de objetos
+  - Problemas con LocalDate y LocalDateTime
+
+## Día 34 (V 18/07)
+
+- Serialización - JSON (continuación)
+  - Serialización de fechas y horas LocalDate y LocalDateTime
+    (https://www.baeldung.com/jackson-serialize-dates)
+- Abstracción de los métodos de serialización
+
+- CRUD
+  - Concepto de CRUD
+  - Patrón de diseño: Repositorio
+  - Demo: interface Repository
+  - Demo: entidad Product
+  - Demo: ProductInMemoryRepository
+- Propuestas
+  - Testing de ProductInMemoryRepository
+  - Demo: ProductFileRepository
+
+## Día 35 (L 21/07)
+
+- Review: ProductFileRepository
+
+-Persistencia en bases de datos (DB)
+
+- Bases Datos: SQL y No SQL. Historia
+  - MySQL -> Server y Cliente (workbench)
+  - Creamos DB (Schema)
+
+- Nuevo proyecto Maven
+- Dependencias
+  - Connector MySql
+  - Hibernate (ORM)
+  - dotenv-java (info sensible)
+
+- META-INFO\persistence.xml
+- EntityManager
+
