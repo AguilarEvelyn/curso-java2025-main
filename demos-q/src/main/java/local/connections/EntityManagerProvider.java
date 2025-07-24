@@ -1,7 +1,6 @@
 package local.connections;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import io.github.cdimascio.dotenv.Dotenv;
@@ -11,8 +10,8 @@ import jakarta.persistence.Persistence;
 
 public class EntityManagerProvider {
 
-     private final static String PERSISTENCE_UNIT= "demos-q";
-     private static EntityManagerFactory entityManagerFactory;
+    private final static String PERSISTENCE_UNIT= "demos-q";
+    private static EntityManagerFactory entityManagerFactory;
 
      static  Map<String, String> getProps() {
              Map<String, String> props = new HashMap<>();
