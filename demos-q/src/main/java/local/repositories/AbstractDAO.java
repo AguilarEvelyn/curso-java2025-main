@@ -64,4 +64,8 @@ public abstract class AbstractDAO<E> implements DAO<E> {
         entityManager.remove(entity);
         entityManager.getTransaction().commit();
     }
+
+    public void detach(E entity) {
+        entityManager.detach(entity);
+    }
 }
