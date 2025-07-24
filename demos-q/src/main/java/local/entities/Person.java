@@ -1,3 +1,4 @@
+
 package local.entities;
 
 import jakarta.persistence.Column;
